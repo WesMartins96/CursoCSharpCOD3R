@@ -1,0 +1,11 @@
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\bin\Debug\netcoreapp2.1\CursoCSharpCOD3R.deps.json
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\bin\Debug\netcoreapp2.1\CursoCSharpCOD3R.runtimeconfig.json
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\bin\Debug\netcoreapp2.1\CursoCSharpCOD3R.runtimeconfig.dev.json
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\bin\Debug\netcoreapp2.1\CursoCSharpCOD3R.dll
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\bin\Debug\netcoreapp2.1\CursoCSharpCOD3R.pdb
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\obj\Debug\netcoreapp2.1\CursoCSharpCOD3R.csprojAssemblyReference.cache
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\obj\Debug\netcoreapp2.1\CursoCSharpCOD3R.csproj.CoreCompileInputs.cache
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\obj\Debug\netcoreapp2.1\CursoCSharpCOD3R.AssemblyInfoInputs.cache
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\obj\Debug\netcoreapp2.1\CursoCSharpCOD3R.AssemblyInfo.cs
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\obj\Debug\netcoreapp2.1\CursoCSharpCOD3R.dll
+C:\Users\wesley_lopes\Documents\Visual Studio 2017\Projects\CursoCSharpCOD3R\CursoCSharpCOD3R\obj\Debug\netcoreapp2.1\CursoCSharpCOD3R.pdb
