@@ -6,6 +6,7 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
 {
     class CalculadoraComum
     {
+              //assinatura do método
         public int Somar(int a, int b)
         {
             return a + b;
@@ -14,9 +15,9 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
         //Não podemos criar métodos com a mesma assinatura.
         //Mas podemos criar métodos com mais propriedades e com o mesmo nome.
         //Agora temos dois métodos Somar diferenciando um do outro.
-        public int Somar(int c, int d, int e)
+        public int Somar(int a, int b, int c)
         {
-            return c + d + e;
+            return a + b + c;
         }
 
         public int Subtrair(int a, int b)
@@ -30,6 +31,47 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
         }
         
     }
+
+
+    //CalculadoraCadeia que retorna a propria instancia(objeto)
+    class CalculadoraCadeia
+    {
+        //variável interna
+        int memoria;
+
+        public CalculadoraCadeia Somar(int a)
+        {
+            memoria += a;
+            return this;
+        }
+
+        public CalculadoraCadeia Multiplicar(int a)
+        {
+            memoria *= a;
+            return this;
+        }
+
+        //Limpar memoria
+        public CalculadoraCadeia Limpar()
+        {
+            memoria = 0;
+            return this;
+        }
+
+        //Imprimir no console
+        public CalculadoraCadeia Imprimir()
+        {
+            Console.WriteLine(memoria);
+            return this;
+        }
+
+        public int Resultado()
+        {
+            return memoria;
+        }
+
+    }
+
 
     class MetodosComRetorno
     {
@@ -48,6 +90,17 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
 
             var multiplicarResult = calculadoraComum.Multiplicar(55, 5);
             Console.WriteLine(multiplicarResult);
+
+
+
+            var calculadoraCadeia = new CalculadoraCadeia();
+            //Usando notação ponto para encadear.
+            calculadoraCadeia.Somar(3).Multiplicar(3).Imprimir().Limpar().Imprimir();
+
+            //Podemos usar de outro modo, com o Resultado();
+            var resultado = calculadoraCadeia.Somar(3).Multiplicar(2).Resultado();
+            Console.WriteLine(resultado);
+
         }
     }
 }

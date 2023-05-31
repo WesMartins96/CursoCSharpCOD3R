@@ -12,7 +12,7 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
         public int Ano;
 
 
-        //criando um construtor com paramêtros, usam camelCase (começam com letra minuscúla)
+        //criando um construtor com paramêtros, usam camelCase nos parametros (começam com letra minuscúla)
         public Carro(string modelo, string fabricante, int ano)
         {
             //pegamos o valor do paramêtro deste construtor e atribuimos ao atributo da classe
