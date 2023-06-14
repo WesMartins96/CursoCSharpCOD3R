@@ -9,7 +9,7 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
     {
         public string Nome;
         public double Preco;
-        //Atributo estatico
+        //Atributo estático
         public static double Desconto = 0.1;
 
 

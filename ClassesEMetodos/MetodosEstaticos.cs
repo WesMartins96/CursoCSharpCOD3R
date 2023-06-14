@@ -13,9 +13,17 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
             return a + b;
         }
 
+        // Método de classe ou Método estático!!!
         public static int Multiplicar(int a, int b)
         {
             return a * b;
+        }
+
+
+        // Método de instância!!!
+        public int Subtrair(int a, int b)
+        {
+            return a - b;
         }
     }
 
@@ -23,12 +31,19 @@ namespace CursoCSharpCOD3R.ClassesEMetodos
     {
         public static void Executar()
         {
-            //Exemplo de uma classe estatica que não precisa ser instanciada para ser utilizada.
+            //Exemplo de uma classe estática que não precisa ser instanciada para ser utilizada.
             var resultado = CalculadoraEstatica.Multiplicar(2, 2);
             Console.WriteLine($"Resultado: {resultado}");
 
             resultado = CalculadoraEstatica.Somar(10, 2);
             Console.WriteLine($"Resultado: {resultado}");
+
+
+            // Usando Método de instância, que obrigatoriamente precisa ser instanciada para ser usada.
+            var sub = new CalculadoraEstatica();
+
+            var resultadoSub = sub.Subtrair(10, 5);
+            Console.WriteLine(resultadoSub);
         }
     }
 }
